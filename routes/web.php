@@ -19,3 +19,5 @@ Route::get('/work_reports', 'WorkingReportsController@index');
 Route::get('/work_reports/create', 'WorkingReportsController@create');
 
 Route::post('/work_reports/store', 'WorkingReportsController@store');
+
+Route::get('/employees', 'EmployeesController@index');
