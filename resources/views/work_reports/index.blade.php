@@ -7,7 +7,7 @@
   <body>
     <div style="padding:20px; border:solid 1px;">
       <div style="margin-bottom: 20px; margin-top: 10px">
-        <a href="http://localhost/workingmanager/public/work_reports/create" style="padding:2px; border-bottom:1px solid #000; text-decoration:none;">登録</a>
+        <a href="/workingmanager/public/work_reports/create" style="padding:2px; border-bottom:1px solid #000; text-decoration:none;">登録</a>
       </div>
       <table style="border-collapse: collapse">
         <tr>

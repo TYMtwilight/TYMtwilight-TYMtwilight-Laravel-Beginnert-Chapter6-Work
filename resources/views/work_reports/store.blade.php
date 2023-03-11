@@ -6,6 +6,6 @@
   </head>
   <body>
     <p>登録が完了しました。</p>
-    <a href="http://localhost/workingmanager/public/work_reports">戻る</a>
+    <a href="/workingmanager/public/work_reports">戻る</a>
   </body>
 </html>

@@ -19,7 +19,7 @@ class EmployeesController extends Controller
     public function detail($id)
     {
         $employee = Employee::find($id);
-        $work_report = WorkingReport::find($id);
-        return view('employees.detail', ['employee'=>$employee,'work_report'=>$work_report]);
+        $work_reports = WorkingReport::where('employee_id', $id)->get();
+        return view('employees.detail', ['employee'=>$employee,'work_reports'=>$work_reports]);
     }
 }
